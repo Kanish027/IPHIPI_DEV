@@ -31,16 +31,16 @@ const Landing = () => {
           <div className="relative aspect-w-16 aspect-h-9">
             <button
               onClick={handlePlayButtonClick}
-              className="flex justify-center items-center z-10 transition duration-300"
+              className="flex justify-center items-center z-10 transition duration-300 pt-28"
             >
               <div className="landing_play_button p-6">
                 <i className="fa-solid fa-play text-xl"></i>
               </div>
             </button>
             <img
-              src="img_main_hero.png"
+              src="earphones(1).png"
               alt="AI-powered earbuds"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-contain rounded-lg"
             />
           </div>
         </div>

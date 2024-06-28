@@ -30,7 +30,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide  hidden lg:block">
             <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bhm-202401?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1703005205962"
+              src="https://images.pexels.com/photos/7243198/pexels-photo-7243198.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
@@ -53,7 +53,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide  hidden lg:block">
             <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bhm-202401?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1703005205962"
+              src="https://images.pexels.com/photos/4560078/pexels-photo-4560078.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
               alt=""
             />
           </div>
@@ -78,7 +78,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide">
             <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bhm-202401?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1703005205962"
+              src="https://images.pexels.com/photos/4560171/pexels-photo-4560171.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
@@ -106,7 +106,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide hidden lg:block">
             <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1700069399720"
+              src="https://images.pexels.com/photos/4050019/pexels-photo-4050019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt=""
             />
           </div>
@@ -132,7 +132,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide">
             <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bhm-202401?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1703005205962"
+              src="https://images.pexels.com/photos/4050214/pexels-photo-4050214.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
@@ -158,7 +158,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide hidden lg:block">
             <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bhm-202401?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1703005205962"
+              src="https://images.pexels.com/photos/8053704/pexels-photo-8053704.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
@@ -178,6 +178,12 @@ const ComingSoon = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="slide hidden lg:block">
+            <img
+              src="https://images.pexels.com/photos/7243011/pexels-photo-7243011.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
+              alt=""
+            />
           </div>
         </div>
       </div>

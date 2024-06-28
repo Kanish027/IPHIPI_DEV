@@ -29,7 +29,7 @@ const BasicFeature = () => {
       <div className="w-full lg:flex gap-5 mb-5">
         <div className="border lg:hidden mb-8 lg:mb-0 w-full rounded-3xl">
           <img
-            src="https://lh3.googleusercontent.com/l7x6bIzuSylKcT4xNrr9iF6hh-LeFy8K_HeuSf2jM12CulYTRP9ifREKFAXGRLSf5UCEX4NJlxrE8sGnhpaCyl0faktXT9Hd2X4=rw-e365-w3000"
+            src="https://images.pexels.com/photos/3755919/pexels-photo-3755919.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
             alt=""
             className="w-full rounded-3xl"
           />
@@ -52,7 +52,7 @@ const BasicFeature = () => {
         </div>
         <div className="border hidden lg:block mb-8 lg:mb-0 w-full rounded-3xl">
           <img
-            src="https://lh3.googleusercontent.com/l7x6bIzuSylKcT4xNrr9iF6hh-LeFy8K_HeuSf2jM12CulYTRP9ifREKFAXGRLSf5UCEX4NJlxrE8sGnhpaCyl0faktXT9Hd2X4=rw-e365-w3000"
+            src="https://images.pexels.com/photos/3755919/pexels-photo-3755919.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
             alt=""
             className="w-full rounded-3xl"
           />
@@ -61,7 +61,7 @@ const BasicFeature = () => {
       <div className="w-full mb-5 lg:flex gap-5">
         <div className="border w-full rounded-3xl mb-8 lg:mb-0">
           <img
-            src="https://lh3.googleusercontent.com/l7x6bIzuSylKcT4xNrr9iF6hh-LeFy8K_HeuSf2jM12CulYTRP9ifREKFAXGRLSf5UCEX4NJlxrE8sGnhpaCyl0faktXT9Hd2X4=rw-e365-w3000"
+            src="https://images.pexels.com/photos/10958687/pexels-photo-10958687.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
             alt=""
             className="w-full rounded-3xl"
           />
@@ -84,7 +84,7 @@ const BasicFeature = () => {
       <div className="w-full lg:flex gap-5 mb-5">
         <div className="border lg:hidden mb-8 lg:mb-0 w-full rounded-3xl">
           <img
-            src="https://lh3.googleusercontent.com/l7x6bIzuSylKcT4xNrr9iF6hh-LeFy8K_HeuSf2jM12CulYTRP9ifREKFAXGRLSf5UCEX4NJlxrE8sGnhpaCyl0faktXT9Hd2X4=rw-e365-w3000"
+            src="https://images.pexels.com/photos/7129056/pexels-photo-7129056.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
             alt=""
             className="w-full rounded-3xl"
           />
@@ -105,7 +105,7 @@ const BasicFeature = () => {
         </div>
         <div className="border hidden lg:block mb-8 lg:mb-0 w-full rounded-3xl">
           <img
-            src="https://lh3.googleusercontent.com/l7x6bIzuSylKcT4xNrr9iF6hh-LeFy8K_HeuSf2jM12CulYTRP9ifREKFAXGRLSf5UCEX4NJlxrE8sGnhpaCyl0faktXT9Hd2X4=rw-e365-w3000"
+            src="https://images.pexels.com/photos/7129056/pexels-photo-7129056.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
             alt=""
             className="w-full rounded-3xl"
           />

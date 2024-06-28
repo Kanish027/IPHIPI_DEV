@@ -1,19 +1,17 @@
 import React from "react";
-import Landing from "../components/Landing";
+import ComingSoon from "../components/ComingSoon";
 import Features from "../components/Features";
 import FinalCall from "../components/FinalCall";
-import AppDemo from "../components/AppDemo";
-import ComingSoon from "../components/ComingSoon";
+import Landing from "../components/Landing";
 
 const Overview = () => {
   return (
     <div>
-      <div className="lg:mx-5">
+      <div className="lg:mx-5 mb-20">
         <Landing />
       </div>
       <Features />
-      {/* <AppDemo /> */}
-      <div className="py-28">
+      <div className="lg:py-24 pb-20">
         <ComingSoon />
       </div>
       <FinalCall />

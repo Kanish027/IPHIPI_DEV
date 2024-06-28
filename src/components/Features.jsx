@@ -9,14 +9,14 @@ const Features = () => {
     <div className="container mx-auto px-4 sm:px-6 lg:my-28 lg:px-8">
       <div className="flex justify-center items-start">
         <h1
-          className="max-w-2xl text-center"
-          style={{ color: "#3c4043", fontWeight: "600", fontSize: "32px" }}
+          className="max-w-2xl heading text-center"
+          // style={{ color: "#3c4043", fontWeight: "600", fontSize: "32px" }}
         >
           With immersive audio, clearer calls, and more, they're the perfect TWS
         </h1>
       </div>
 
-      <div className="flex my-20">
+      <div className="flex my-10 lg:my-20">
         <div
           onClick={() => setTab("basic")}
           className={`w-full flex justify-center cursor-pointer ${

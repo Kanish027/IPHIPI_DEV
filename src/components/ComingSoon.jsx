@@ -104,7 +104,7 @@ const ComingSoon = () => {
               </div>
             </div>
           </div>
-          <div className="slide">
+          <div className="slide hidden lg:block">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1700069399720"
               alt=""

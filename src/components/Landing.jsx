@@ -31,7 +31,7 @@ const Landing = () => {
           <div className="relative aspect-w-16 aspect-h-9">
             <button
               onClick={handlePlayButtonClick}
-              className="flex justify-center items-center z-10 transition duration-300 pt-28"
+              className="flex justify-center items-center z-10 transition duration-300 lg:pt-28 pt-20"
             >
               <div className="landing_play_button p-6">
                 <i className="fa-solid fa-play text-xl"></i>

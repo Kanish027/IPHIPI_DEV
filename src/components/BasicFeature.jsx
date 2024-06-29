@@ -8,8 +8,8 @@ const BasicFeature = () => {
         <div className="w-full mb-8 lg:mb-0">
           <AppDemo />
         </div>
-        <div className="lg:w-2/3 lg:mb-0 mb-8 w-full rounded-3xl bg-blue-100">
-          <h1 className="text-center text-2xl mt-20 mb-10 font-bold">
+        <div className="lg:w-2/3 lg:mb-0 md:p-16 lg:p-0 mb-8 w-full rounded-3xl bg-blue-100">
+          <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
             AI ENC (Environmental Noise Cancellation)
           </h1>
           <ul className="px-10 list-disc mb-20">
@@ -34,7 +34,7 @@ const BasicFeature = () => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="border mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+        <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
           <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
             Brand Wake Word for Hybrid Hands-free
           </h1>
@@ -66,7 +66,7 @@ const BasicFeature = () => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="border mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+        <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
           <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
             Auto Volume (ANC Alternative) with Conversation Sensor
           </h1>
@@ -89,7 +89,7 @@ const BasicFeature = () => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="border mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+        <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
           <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
             Safety Feature (Transparency Mode Alternative)
           </h1>

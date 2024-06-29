@@ -20,7 +20,7 @@ function ListItem({ content }) {
 
 function About() {
   return (
-    <div className="md:p-6 relative" id="about">
+    <div className="md:p-6 mb-16 relative" id="about">
       <div className="mx-auto max-w-screen-lx px-6">
         <h1 className="text-4xl font-semibold text-center pb-8">
           About IPHIPI

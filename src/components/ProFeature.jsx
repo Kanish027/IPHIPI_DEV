@@ -12,7 +12,7 @@ const ProFeature = () => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="lg:w-2/3 mb-8 lg:mb-0 w-full rounded-3xl bg-blue-100">
+        <div className="lg:w-2/3  md:p-16 lg:p-0 mb-8 lg:mb-0 w-full rounded-3xl bg-blue-100">
           <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
             AI ENC Pro
           </h1>
@@ -34,7 +34,7 @@ const ProFeature = () => {
             className="w-full rounded-3xl"
           />
         </div>
-        <div className="border mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+        <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
           <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
             Handsfree with Voice Print
           </h1>

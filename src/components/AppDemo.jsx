@@ -53,67 +53,51 @@ const AppDemo = () => {
                 Try different noise types
               </strong>
             </div>
-            <ul className="flex md:flex-row flex-col gap-y-4 justify-between gap-4 items-center app_demo_audio_list">
-              <li
-                className={
-                  activeAudio === "bike"
-                    ? "bg-blue-500 text-white text-center w-full px-8 py-3 rounded-md cursor-pointer"
-                    : "bg-gray-50 text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                }
-                onClick={handlePlayBikeAudio}
-              >
-                <span className="text-center app_demo_list_text">
-                  Wind Voice
-                </span>
-              </li>
-              <li
-                className={
-                  activeAudio === "babble"
-                    ? "bg-blue-500 text-white text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                    : "bg-gray-50 text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                }
-                onClick={handlePlayBabbleAudio}
-              >
-                <span className="text-center app_demo_list_text">
-                  Babble Voice
-                </span>
-              </li>
-              <li
-                className={
-                  activeAudio === "click"
-                    ? "bg-blue-500 text-white text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                    : "bg-gray-50 text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                }
-                onClick={handlePlayClickAudio}
-              >
-                <span className="text-center app_demo_list_text">
-                  Click Voice
-                </span>
-              </li>
-              <li
-                className={
-                  activeAudio === "baby"
-                    ? "bg-blue-500 text-white text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                    : "bg-gray-50 text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                }
-                onClick={handlePlayBabyAudio}
-              >
-                <span className="text-center app_demo_list_text">
-                  Baby Voice
-                </span>
-              </li>
-              <li
-                className={
-                  activeAudio === "siren"
-                    ? "bg-blue-500 text-white text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                    : "bg-gray-50 text-center px-8 py-3 w-full rounded-md cursor-pointer"
-                }
-                onClick={handlePlaySirenAudio}
-              >
-                <span className="text-center app_demo_list_text">
-                  Siren Voice
-                </span>
-              </li>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 app_demo_audio_list">
+              {[
+                {
+                  id: "bike",
+                  label: "Wind Voice",
+                  handler: handlePlayBikeAudio,
+                },
+                {
+                  id: "babble",
+                  label: "Babble Voice",
+                  handler: handlePlayBabbleAudio,
+                },
+                {
+                  id: "click",
+                  label: "Click Voice",
+                  handler: handlePlayClickAudio,
+                },
+                {
+                  id: "baby",
+                  label: "Baby Voice",
+                  handler: handlePlayBabyAudio,
+                },
+                {
+                  id: "siren",
+                  label: "Siren Voice",
+                  handler: handlePlaySirenAudio,
+                },
+              ].map(({ id, label, handler }) => (
+                <li
+                  key={id}
+                  className={`
+        ${
+          activeAudio === id
+            ? "bg-blue-500 text-white"
+            : "bg-gray-50 text-gray-800"
+        }
+        text-center px-4 py-3 rounded-md cursor-pointer transition-colors duration-300 hover:bg-blue-400 hover:text-white
+      `}
+                  onClick={handler}
+                >
+                  <span className="text-center app_demo_list_text">
+                    {label}
+                  </span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

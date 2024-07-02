@@ -11,54 +11,7 @@ const ComingSoon = () => {
       </div>
       <div className="slider-container">
         <div className="slider">
-          <div className="slide  hidden lg:block">
-            <div className="slide-content flex items-center lg:px-20 px-7 h-full bg-blue-100 rounded-3xl">
-              <div>
-                <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
-                >
-                  3D Audio
-                </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
-                  Creates an immersive audio experience by adding spatial
-                  effects.Provides a sense of depth and direction in the
-                  soundstage.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="slide  hidden lg:block">
-            <img
-              src="https://images.pexels.com/photos/7243198/pexels-photo-7243198.jpeg?auto=compress&cs=tinysrgb&w=4000"
-              alt=""
-            />
-          </div>
-          <div className="slide  hidden lg:block">
-            <div className="slide-content flex items-center lg:px-20 px-7 h-full bg-blue-100 rounded-3xl">
-              <div>
-                <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
-                >
-                  Real-Time AI Bass Boost
-                </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
-                  Dynamically enhances bass frequencies in real-time based on
-                  the audio content.Delivers a powerful and enriched listening
-                  experience.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="slide  hidden lg:block">
-            <img
-              src="https://images.pexels.com/photos/4560078/pexels-photo-4560078.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
-              alt=""
-            />
-          </div>
           <div className="slide">
-            {/* Adjust padding for different screen sizes */}
             <div className="slide-content bg-slate-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
               <div>
                 <h2
@@ -78,7 +31,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide">
             <img
-              src="https://images.pexels.com/photos/4560171/pexels-photo-4560171.jpeg?auto=compress&cs=tinysrgb&w=4000"
+              src="https://images.pexels.com/photos/7243011/pexels-photo-7243011.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
               alt=""
             />
           </div>
@@ -104,13 +57,13 @@ const ComingSoon = () => {
               </div>
             </div>
           </div>
-          <div className="slide hidden lg:block">
+          <div className="slide">
             <img
-              src="https://images.pexels.com/photos/4050019/pexels-photo-4050019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://images.pexels.com/photos/8053704/pexels-photo-8053704.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
-          <div className="slide hidden lg:block">
+          {/* <div className="slide">
             <div
               className="slide-content flex items-center lg:px-20 px-7 h-full rounded-3xl"
               style={{ backgroundColor: "#DAE0E2" }}
@@ -136,7 +89,7 @@ const ComingSoon = () => {
               alt=""
             />
           </div>
-          <div className="slide hidden lg:block">
+          <div className="slide">
             <div
               className="slide-content flex items-center lg:px-20 px-7 h-full rounded-3xl"
               style={{ background: "#FAC7B4" }}
@@ -156,13 +109,13 @@ const ComingSoon = () => {
               </div>
             </div>
           </div>
-          <div className="slide hidden lg:block">
+          <div className="slide">
             <img
               src="https://images.pexels.com/photos/8053704/pexels-photo-8053704.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
-          <div className="slide hidden lg:block">
+          <div className="slide">
             <div className="slide-content flex items-center lg:px-20 px-7 h-full rounded-3xl bg-emerald-100">
               <div>
                 <h2
@@ -179,12 +132,12 @@ const ComingSoon = () => {
               </div>
             </div>
           </div>
-          <div className="slide hidden lg:block">
+          <div className="slide">
             <img
               src="https://images.pexels.com/photos/7243011/pexels-photo-7243011.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

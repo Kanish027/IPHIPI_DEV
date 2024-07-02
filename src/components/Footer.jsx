@@ -18,8 +18,7 @@ const Footer = () => {
         <div className="max-w-md mb-6 lg:mb-0">
           <img src="logo.jpg" className="w-64 h-auto" alt="Company Logo" />
           <div className="mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum
-            nulla eos veniam voluptatem architecto.
+            Make your TWS smart with our IPHIPI solutions
           </div>
         </div>
 

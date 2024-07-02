@@ -1,6 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_zgbc52l",
+        "template_hv6mgar",
+        form.current,
+        "3chfWEAMJlpR7H4pj"
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          // alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          // alert("Failed to send message.");
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <div className="lg:mx-5 py-4 mb-10 rounded-3xl">
       <div className="container rounded-3xl px-4 sm:px-6 lg:px-8">
@@ -9,7 +36,6 @@ const Contact = () => {
             <p
               className="text-base sm:text-lg"
               style={{
-                // position: "absolute",
                 visibility: "hidden",
                 height: 0,
                 overflow: "hidden",
@@ -38,7 +64,7 @@ const Contact = () => {
                   <h2 className="mb-8 text-4xl tracking-tight text-center font-semibold text-gray-900">
                     Contact Us
                   </h2>
-                  <form action="#" className="space-y-8">
+                  <form ref={form} onSubmit={sendEmail} className="space-y-8">
                     <div>
                       <label
                         htmlFor="name"
@@ -49,7 +75,7 @@ const Contact = () => {
                       <input
                         type="text"
                         id="name"
-                        name="name"
+                        name="from_name"
                         className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                         placeholder="John Doe"
                         required
@@ -65,7 +91,7 @@ const Contact = () => {
                       <input
                         type="email"
                         id="email"
-                        name="email"
+                        name="user_email"
                         className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                         placeholder="john@example.com"
                         required
@@ -100,6 +126,7 @@ const Contact = () => {
                         name="message"
                         className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
                         placeholder="Leave a comment..."
+                        required
                       ></textarea>
                     </div>
                     <button

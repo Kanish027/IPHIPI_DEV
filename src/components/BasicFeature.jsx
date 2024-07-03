@@ -14,7 +14,7 @@ const BasicFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               AI ENC (Environmental Noise Cancellation)
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Reduces background noise during calls using advanced AI
                 algorithms.
@@ -40,7 +40,7 @@ const BasicFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               Brand Wake Word for Hybrid Hands-free
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Activate the voice assistant by saying a specific wake word.
               </li>
@@ -72,7 +72,7 @@ const BasicFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               Auto Volume (ANC Alternative) with Conversation Sensor
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10  mb-20">
               <li className="mb-3">
                 Automatically adjusts the volume based on background noise
                 levels.
@@ -96,7 +96,7 @@ const BasicFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               Safety Feature (Transparency Mode Alternative)
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Alerts users in emergency situations like loud horns, police
                 sirens, ambulance sirens, and indoor fire alarms.

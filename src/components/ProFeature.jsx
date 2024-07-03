@@ -18,7 +18,7 @@ const ProFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               AI ENC Pro
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Provides superior speech clarity using advanced AI models.
               </li>
@@ -36,11 +36,11 @@ const ProFeature = () => {
               className="w-full rounded-3xl"
             />
           </div>
-          <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+          <div className="border md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               Handsfree with Voice Print
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Recognizes and verifies the user’s voice for personalized
                 responses and increased security.
@@ -70,7 +70,7 @@ const ProFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               AI Spatial Audio
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Utilizes HRTF-based algorithms to create a 3D audio effect.
               </li>
@@ -93,7 +93,7 @@ const ProFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               AI ANC (Active Noise Cancellation)
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Employs AI to adaptively cancel out ambient noise.
               </li>
@@ -123,7 +123,7 @@ const ProFeature = () => {
             <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
               AI Advanced Transparency
             </h1>
-            <ul className="px-10 list-disc mb-20">
+            <ul className="px-10 mb-20">
               <li className="mb-3">
                 Enhances transparency mode by using AI to selectively allow
                 important sounds through.

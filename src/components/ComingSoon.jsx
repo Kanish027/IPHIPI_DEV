@@ -12,15 +12,18 @@ const ComingSoon = () => {
       <div className="slider-container">
         <div className="slider">
           <div className="slide">
-            <div className="slide-content bg-slate-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
+            <div className="slide-content bg-gradient-to-br from-amber-100 to-amber-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
               <div>
                 <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
+                  className="lg:text-3xl mb-4 text-amber-500 font-bold"
+                  // style={{ color: "#3c4043" }}
                 >
                   Two-Way Conversation Sensor
                 </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
+                <p
+                  className="text-sm lg:text-md text-amber-500 font-medium"
+                  // style={{ color: "#3c4043" }}
+                >
                   Detects conversation when the user starts speaking and when
                   someone calls the user with a registered name. Pauses music
                   and switches on transparency mode with vocal boost to ensure
@@ -37,17 +40,20 @@ const ComingSoon = () => {
           </div>
           <div className="slide">
             <div
-              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
-              style={{ backgroundColor: "#F0E8DF" }}
+              className="slide-content flex items-center bg-gradient-to-br from-amber-100 to-amber-200 lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              // style={{ backgroundColor: "#F0E8DF" }}
             >
               <div>
                 <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
+                  className="lg:text-3xl text-amber-500 mb-4 font-bold"
+                  // style={{ color: "#3c4043" }}
                 >
                   AI Dynamic Equalizer
                 </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
+                <p
+                  className="text-sm text-amber-500 lg:text-md font-semibold"
+                  // style={{ color: "#3c4043" }}
+                >
                   Adjusts audio EQ in real-time based on the genre. Optimizes
                   sound quality for different types of content. Allows user to
                   tweak EQ settings for more{" "}

@@ -35,12 +35,12 @@ const Features = () => {
         <div
           onClick={() => setTab("pro")}
           className={`w-full flex justify-center cursor-pointer ${
-            tab === "pro" && "lg:bg-blue-100"
+            tab === "pro" && "lg:bg-gradient-to-br from-amber-100 to-amber-200"
           } py-2 rounded-lg`}
         >
           <h1
             className={`max-w-2xl text-center ${
-              tab === "pro" ? "text-blue-500" : "text-gray-700"
+              tab === "pro" ? "text-amber-500" : "text-gray-700"
             }`}
             style={{ fontWeight: "600", fontSize: "24px" }}
           >

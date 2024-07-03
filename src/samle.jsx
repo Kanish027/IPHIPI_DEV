@@ -12,7 +12,7 @@ const ComingSoon1 = () => {
       <div className="slider-container">
         <div className="slider">
           <div className="slide">
-            <div className="slide-content bg-gradient-to-br from-blue-100 to-blue-200 flex items-center lg:px-20 px-6 sm:px-10 h-full rounded-3xl shadow-lg">
+            <div className="slide-content bg-gradient-to-br from-blue-100 to-blue-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
               <div className="max-w-md">
                 <h2 className="lg:text-4xl text-3xl mb-6 font-bold text-blue-800">
                   3D Audio
@@ -34,12 +34,14 @@ const ComingSoon1 = () => {
           <div className="slide">
             <img
               src="https://images.pexels.com/photos/4560171/pexels-photo-4560171.jpeg?auto=compress&cs=tinysrgb&w=4000"
-              alt="Person wearing headphones"
-              className="w-full h-full object-cover"
+              alt=""
             />
           </div>
           <div className="slide">
-            <div className="slide-content bg-gradient-to-br from-amber-100 to-amber-200 flex items-center lg:px-20 px-6 sm:px-10 h-full rounded-3xl shadow-lg">
+            <div
+              className="slide-content bg-gradient-to-br from-amber-100 to-amber-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              // style={{ backgroundColor: "#F0E8DF" }}
+            >
               <div className="max-w-md">
                 <h2 className="lg:text-4xl text-3xl mb-6 font-bold text-amber-800">
                   Real-Time AI Bass Boost
@@ -61,8 +63,7 @@ const ComingSoon1 = () => {
           <div className="slide">
             <img
               src="https://images.pexels.com/photos/4050214/pexels-photo-4050214.jpeg?auto=compress&cs=tinysrgb&w=4000"
-              alt="Person enjoying music"
-              className="w-full h-full object-cover"
+              alt=""
             />
           </div>
         </div>

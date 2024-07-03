@@ -16,17 +16,32 @@ const BasicFeature = () => {
                 AI ENC (Environmental Noise Cancellation)
               </h1>
               <ul className="px-10 mb-20">
-                <li className="mb-3">
-                  Reduces background noise during calls using advanced AI
-                  algorithms.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                  </div>
+                  <div>
+                    Reduces background noise during calls using advanced AI
+                    algorithms.
+                  </div>
                 </li>
-                <li className="mb-3">
-                  Ensures crystal-clear communication even in noisy
-                  environments.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                  </div>
+                  <div>
+                    Ensures crystal-clear communication even in noisy
+                    environments.
+                  </div>
                 </li>
-                <li className="mb-3">
-                  Superior performance compared to any TWS ENC for Indian
-                  noises.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                  </div>
+                  <div>
+                    Superior performance compared to any TWS ENC for Indian
+                    noises.
+                  </div>
                 </li>
               </ul>
             </div>
@@ -46,14 +61,24 @@ const BasicFeature = () => {
                 Brand Wake Word for Hybrid Hands-free
               </h1>
               <ul className="px-10 mb-20">
-                <li className="mb-3">
-                  Activate the voice assistant by saying a specific wake word.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                  </div>
+                  <div>
+                    Activate the voice assistant by saying a specific wake word.
+                  </div>
                 </li>
-                <li className="mb-3">
-                  Seamless hands-free experience for controlling various
-                  functions through Google/Siri voice assistants (when online)
-                  or offline commands built into TWS like volume up, play next
-                  song, answer/reject calls, etc.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                  </div>
+                  <div>
+                    Seamless hands-free experience for controlling various
+                    functions through Google/Siri voice assistants (when online)
+                    or offline commands built into TWS like volume up, play next
+                    song, answer/reject calls, etc.
+                  </div>
                 </li>
               </ul>
             </div>
@@ -74,19 +99,29 @@ const BasicFeature = () => {
               className="w-full rounded-3xl"
             />
           </div>
-          <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+          <div className="border flex items-center md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
             <div>
               <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
                 Auto Volume (ANC Alternative) with Conversation Sensor
               </h1>
               <ul className="px-10  mb-20">
-                <li className="mb-3">
-                  Automatically adjusts the volume based on background noise
-                  levels.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                  </div>
+                  <div>
+                    Automatically adjusts the volume based on background noise
+                    levels.
+                  </div>
                 </li>
-                <li className="mb-3">
-                  Lowers the volume when a conversation is detected, ensuring a
-                  consistent listening experience.
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-star-half-stroke"></i>
+                  </div>
+                  <div>
+                    Lowers the volume when a conversation is detected, ensuring
+                    a consistent listening experience.
+                  </div>
                 </li>
               </ul>
             </div>
@@ -100,19 +135,29 @@ const BasicFeature = () => {
               className="w-full rounded-3xl"
             />
           </div>
-          <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
-            <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
-              Safety Feature (Transparency Mode Alternative)
-            </h1>
-            <ul className="px-10 mb-20">
-              <li className="mb-3">
-                Alerts users in emergency situations like loud horns, police
-                sirens, ambulance sirens, and indoor fire alarms.
-              </li>
-              <li className="mb-3">
-                Keeps users safe while listening to loud music.
-              </li>
-            </ul>
+          <div className="border flex items-center md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+            <div>
+              <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
+                Safety Feature (Transparency Mode Alternative)
+              </h1>
+              <ul className="px-10 mb-20">
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-regular pe-3 text-blue-600 fa-star"></i>
+                  </div>
+                  <div>
+                    Alerts users in emergency situations like loud horns, police
+                    sirens, ambulance sirens, and indoor fire alarms.
+                  </div>
+                </li>
+                <li className="mb-3 flex gap-1">
+                  <div>
+                    <i className="fa-solid pe-3 text-blue-600 fa-star"></i>
+                  </div>
+                  <div>Keeps users safe while listening to loud music.</div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="border hidden lg:block mb-8 lg:mb-0 w-full rounded-3xl">
             <img

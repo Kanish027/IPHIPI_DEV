@@ -12,19 +12,22 @@ const ComingSoon1 = () => {
       <div className="slider-container">
         <div className="slider">
           <div className="slide">
-            <div className="slide-content bg-slate-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
-              <div>
-                <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
-                >
+            <div className="slide-content bg-gradient-to-br from-blue-100 to-blue-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
+              <div className="max-w-md">
+                <h2 className="lg:text-4xl text-3xl mb-6 font-bold text-blue-800">
                   3D Audio
                 </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
-                  Creates an immersive audio experience by adding spatial
-                  effects. Provides a sense of depth and direction in the
-                  soundstage.
+                <p className="text-sm lg:text-lg text-blue-700 leading-relaxed">
+                  Experience immersive soundscapes with our cutting-edge 3D
+                  Audio technology. Dive into a world where sound comes alive,
+                  providing unparalleled depth and directionality to your audio
+                  experience.
                 </p>
+                <div className="mt-8">
+                  <span className="inline-block bg-blue-500 text-white text-sm px-4 py-2 rounded-full font-semibold">
+                    Coming Soon
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -36,21 +39,24 @@ const ComingSoon1 = () => {
           </div>
           <div className="slide">
             <div
-              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
-              style={{ backgroundColor: "#F0E8DF" }}
+              className="slide-content bg-gradient-to-br from-amber-100 to-amber-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              // style={{ backgroundColor: "#F0E8DF" }}
             >
-              <div>
-                <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
-                >
+              <div className="max-w-md">
+                <h2 className="lg:text-4xl text-3xl mb-6 font-bold text-amber-800">
                   Real-Time AI Bass Boost
                 </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
-                  Dynamically enhances bass frequencies in real-time based on
-                  the audio content. Delivers a powerful and enriched listening
-                  experience.
+                <p className="text-sm lg:text-lg text-amber-700 leading-relaxed">
+                  Feel the power of intelligent bass enhancement. Our AI-driven
+                  technology dynamically adjusts bass levels in real-time,
+                  ensuring rich, deep tones that adapt to your music for an
+                  unmatched listening experience.
                 </p>
+                <div className="mt-8">
+                  <span className="inline-block bg-amber-500 text-white text-sm px-4 py-2 rounded-full font-semibold">
+                    Launching Soon
+                  </span>
+                </div>
               </div>
             </div>
           </div>

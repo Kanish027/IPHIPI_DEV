@@ -18,16 +18,15 @@ const ComingSoon1 = () => {
                   className="lg:text-3xl mb-4 font-bold"
                   style={{ color: "#3c4043" }}
                 >
-                  Two-Way Conversation Sensor
+                  3D Audio
                 </h2>
                 <p
                   className="text-sm lg:text-md font-medium"
                   style={{ color: "#3c4043" }}
                 >
-                  Detects conversation when the user starts speaking and when
-                  someone calls the user with a registered name. Pauses music
-                  and switches on transparency mode with vocal boost to ensure
-                  the user never misses important interactions.
+                  Creates an immersive audio experience by adding spatial
+                  effects. Provides a sense of depth and direction in the
+                  soundstage.
                 </p>
               </div>
             </div>
@@ -48,17 +47,15 @@ const ComingSoon1 = () => {
                   className="lg:text-3xl mb-4 font-bold"
                   style={{ color: "#3c4043" }}
                 >
-                  AI Dynamic Equalizer
+                  Real-Time AI Bass Boost
                 </h2>
                 <p
                   className="text-sm lg:text-md font-medium"
                   style={{ color: "#3c4043" }}
                 >
-                  Adjusts audio EQ in real-time based on the genre. Optimizes
-                  sound quality for different types of content. Allows user to
-                  tweak EQ settings for more{" "}
-                  <span className="text-xs lg:text-sm">personalized</span>{" "}
-                  experience
+                  Dynamically enhances bass frequencies in real-time based on
+                  the audio content. Delivers a powerful and enriched listening
+                  experience.
                 </p>
               </div>
             </div>

@@ -40,7 +40,7 @@ const Features = () => {
         >
           <h1
             className={`max-w-2xl text-center ${
-              tab === "pro" ? "text-amber-500" : "text-gray-700"
+              tab === "pro" ? "text-orange-500" : "text-gray-700"
             }`}
             style={{ fontWeight: "600", fontSize: "24px" }}
           >

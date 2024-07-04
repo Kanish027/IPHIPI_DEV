@@ -20,7 +20,7 @@ const Features = () => {
         <div
           onClick={() => setTab("basic")}
           className={`w-full flex justify-center cursor-pointer ${
-            tab === "basic" && "lg:bg-blue-100"
+            tab === "basic" && "lg:bg-gradient-to-br from-blue-100 to-blue-200"
           } py-2 rounded-lg`}
         >
           <h1

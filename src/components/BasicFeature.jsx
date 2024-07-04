@@ -10,7 +10,7 @@ const BasicFeature = () => {
           <div className="w-full mb-8 lg:mb-0">
             <AppDemo />
           </div>
-          <div className="lg:w-2/3 lg:mb-0 md:p-16 lg:p-0 mb-8 w-full rounded-3xl bg-blue-100 flex align-middle items-center">
+          <div className="lg:w-2/3 lg:mb-0 md:p-16 lg:p-0 mb-8 w-full rounded-3xl bg-gradient-to-br from-blue-100 to-blue-200 flex align-middle items-center">
             <div>
               <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
                 AI ENC (Environmental Noise Cancellation)
@@ -18,7 +18,7 @@ const BasicFeature = () => {
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Reduces background noise during calls using advanced AI
@@ -27,7 +27,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Ensures crystal-clear communication even in noisy
@@ -36,7 +36,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Superior performance compared to any TWS ENC for Indian
@@ -55,7 +55,7 @@ const BasicFeature = () => {
               className="w-full rounded-3xl"
             />
           </div>
-          <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full flex items-center bg-blue-100 rounded-3xl">
+          <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full flex items-center bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
             <div>
               <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
                 Brand Wake Word for Hybrid Hands-free
@@ -63,7 +63,7 @@ const BasicFeature = () => {
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Activate the voice assistant by saying a specific wake word.
@@ -71,7 +71,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Seamless hands-free experience for controlling various
@@ -99,7 +99,7 @@ const BasicFeature = () => {
               className="w-full rounded-3xl"
             />
           </div>
-          <div className="border flex items-center md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+          <div className="border flex items-center md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
             <div>
               <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
                 Auto Volume (ANC Alternative) with Conversation Sensor
@@ -107,7 +107,7 @@ const BasicFeature = () => {
               <ul className="px-10  mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-check"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Automatically adjusts the volume based on background noise
@@ -116,7 +116,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-star-half-stroke"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Lowers the volume when a conversation is detected, ensuring
@@ -135,7 +135,7 @@ const BasicFeature = () => {
               className="w-full rounded-3xl"
             />
           </div>
-          <div className="border flex items-center md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-blue-100 rounded-3xl">
+          <div className="border flex items-center md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
             <div>
               <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
                 Safety Feature (Transparency Mode Alternative)
@@ -143,7 +143,7 @@ const BasicFeature = () => {
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-regular pe-3 text-blue-600 fa-star"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>
                     Alerts users in emergency situations like loud horns, police
@@ -152,7 +152,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-star"></i>
+                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
                   </div>
                   <div>Keeps users safe while listening to loud music.</div>
                 </li>

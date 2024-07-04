@@ -18,13 +18,16 @@ const ComingSoon1 = () => {
                   className="lg:text-3xl mb-4 font-bold"
                   style={{ color: "#3c4043" }}
                 >
-                  3D Audio
+                  Two-Way Conversation Sensor
                 </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
-                  Experience immersive soundscapes with our cutting-edge 3D
-                  Audio technology. Dive into a world where sound comes alive,
-                  providing unparalleled depth and directionality to your audio
-                  experience.
+                <p
+                  className="text-sm lg:text-md font-medium"
+                  style={{ color: "#3c4043" }}
+                >
+                  Detects conversation when the user starts speaking and when
+                  someone calls the user with a registered name. Pauses music
+                  and switches on transparency mode with vocal boost to ensure
+                  the user never misses important interactions.
                 </p>
               </div>
             </div>
@@ -37,7 +40,7 @@ const ComingSoon1 = () => {
           </div>
           <div className="slide">
             <div
-              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              className="slide-content flex items-center bg-gradient-to-br lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
               style={{ backgroundColor: "#F0E8DF" }}
             >
               <div>
@@ -45,13 +48,17 @@ const ComingSoon1 = () => {
                   className="lg:text-3xl mb-4 font-bold"
                   style={{ color: "#3c4043" }}
                 >
-                  Real-Time AI Bass Boost
+                  AI Dynamic Equalizer
                 </h2>
-                <p className="text-sm lg:text-md" style={{ color: "#3c4043" }}>
-                  Feel the power of intelligent bass enhancement. Our AI-driven
-                  technology dynamically adjusts bass levels in real-time,
-                  ensuring rich, deep tones that adapt to your music for an
-                  unmatched listening experience.
+                <p
+                  className="text-sm lg:text-md font-medium"
+                  style={{ color: "#3c4043" }}
+                >
+                  Adjusts audio EQ in real-time based on the genre. Optimizes
+                  sound quality for different types of content. Allows user to
+                  tweak EQ settings for more{" "}
+                  <span className="text-xs lg:text-sm">personalized</span>{" "}
+                  experience
                 </p>
               </div>
             </div>

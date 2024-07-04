@@ -51,7 +51,7 @@ const ComingSoon = () => {
                   AI Dynamic Equalizer
                 </h2>
                 <p
-                  className="text-sm text-amber-500 lg:text-md font-semibold"
+                  className="text-sm text-amber-500 lg:text-md font-medium"
                   // style={{ color: "#3c4043" }}
                 >
                   Adjusts audio EQ in real-time based on the genre. Optimizes

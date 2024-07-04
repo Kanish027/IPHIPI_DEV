@@ -31,7 +31,7 @@ const AppDemo = () => {
   };
 
   return (
-    <div className="bg-blue-100 rounded-3xl px-4 py-10 md:px-8 ">
+    <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl px-4 py-10 md:px-8 ">
       <div className="max-w-screen-lx mx-auto md:py-20">
         <h1 className="benefits-heading text-center font-bold pb-8">
           IPHIPI Noise Cancelling app demo

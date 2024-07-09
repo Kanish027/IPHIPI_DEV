@@ -93,7 +93,7 @@ const ProFeature = () => {
           <div className="lg:w-2/3  md:p-16 lg:p-0 mb-8 lg:mb-0 flex items-center w-full rounded-3xl bg-gradient-to-br from-amber-100 to-amber-200">
             <div>
               <h1 className="text-center px-8 text-3xl mt-20 mb-10 text-orange-500 font-bold">
-                AI Spatial Audio
+                Real Time AI Bass Boost
               </h1>
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
@@ -101,7 +101,8 @@ const ProFeature = () => {
                     <i className="fa-solid pe-3 text-orange-500 fa-crown"></i>
                   </div>
                   <div className="text-orange-500 text-md font-medium">
-                    Utilizes HRTF-based algorithms to create a 3D audio effect.
+                    Dynamically enhances bass frequencies in real-time based on
+                    the audio content.
                   </div>
                 </li>
                 <li className="mb-3 flex gap-1">
@@ -109,8 +110,7 @@ const ProFeature = () => {
                     <i className="fa-solid pe-3 text-orange-500 fa-crown"></i>
                   </div>
                   <div className="text-orange-500 text-md font-medium">
-                    Provides an immersive experience for movies and music
-                    recorded in spatial audio formats.
+                    Delivers a powerful and enriched listening experience.
                   </div>
                 </li>
               </ul>

@@ -12,7 +12,10 @@ const ComingSoon1 = () => {
       <div className="slider-container">
         <div className="slider">
           <div className="slide">
-            <div className="slide-content bg-slate-200 flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl">
+            <div
+              style={{ backgroundColor: "#F0E8DF" }}
+              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+            >
               <div>
                 <h2
                   className="lg:text-3xl mb-4 font-bold"
@@ -39,7 +42,7 @@ const ComingSoon1 = () => {
           </div>
           <div className="slide">
             <div
-              className="slide-content flex items-center bg-gradient-to-br lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
               style={{ backgroundColor: "#F0E8DF" }}
             >
               <div>
@@ -47,15 +50,17 @@ const ComingSoon1 = () => {
                   className="lg:text-3xl mb-4 font-bold"
                   style={{ color: "#3c4043" }}
                 >
-                  Pro and AI Dynamic Equilizer
+                  AI Dynamic Equalizer
                 </h2>
                 <p
                   className="text-sm lg:text-md font-medium"
                   style={{ color: "#3c4043" }}
                 >
-                  Dynamically enhances bass frequencies in real-time based on
-                  the audio content. Delivers a powerful and enriched listening
-                  experience.
+                  Adjusts audio EQ in real-time based on the genre. Optimizes
+                  sound quality for different types of content. Allows user to
+                  tweak EQ settings for more{" "}
+                  <span className="text-xs lg:text-sm">personalized</span>{" "}
+                  experience
                 </p>
               </div>
             </div>

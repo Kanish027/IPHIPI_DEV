@@ -58,7 +58,7 @@ const BasicFeature = () => {
           <div className="border  md:p-16 lg:p-0 mb-8 lg:mb-0 lg:w-2/3 w-full flex items-center bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
             <div>
               <h1 className="text-center px-8 text-2xl mt-20 mb-10 font-bold">
-                Brand Wake Word for Hybrid Hands-free
+                Brand Wake Word
               </h1>
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">

@@ -24,12 +24,12 @@ const Features = () => {
           } py-2 rounded-lg`}
         >
           <h1
-            className={`max-w-2xl text-center ${
+            className={`max-w-2xl text-center text-lg lg:text-2xl font-semibold ${
               tab === "basic" ? "text-blue-500" : "text-gray-700"
             }`}
-            style={{ fontWeight: "600", fontSize: "24px" }}
+            // style={{ fontWeight: "600", fontSize: "24px" }}
           >
-            AI Basics
+            AI Basics Features
           </h1>
         </div>
         <div
@@ -39,12 +39,12 @@ const Features = () => {
           } py-2 rounded-lg`}
         >
           <h1
-            className={`max-w-2xl text-center ${
+            className={`max-w-2xl text-center text-lg lg:text-2xl font-semibold ${
               tab === "pro" ? "text-orange-500" : "text-gray-700"
             }`}
-            style={{ fontWeight: "600", fontSize: "24px" }}
+            // style={{ fontWeight: "600", fontSize: "24px" }}
           >
-            AI Pro
+            AI Pro Features
           </h1>
         </div>
       </div>

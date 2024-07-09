@@ -13,8 +13,8 @@ const ComingSoon1 = () => {
         <div className="slider">
           <div className="slide">
             <div
-              style={{ backgroundColor: "#F0E8DF" }}
-              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              // style={{ backgroundColor: "#F0E8DF" }}
+              className="slide-content flex items-center bg-slate-200 lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
             >
               <div>
                 <h2
@@ -42,8 +42,8 @@ const ComingSoon1 = () => {
           </div>
           <div className="slide">
             <div
-              className="slide-content flex items-center lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
-              style={{ backgroundColor: "#F0E8DF" }}
+              className="slide-content flex items-center bg-slate-200 lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              // style={{ backgroundColor: "#F0E8DF" }}
             >
               <div>
                 <h2

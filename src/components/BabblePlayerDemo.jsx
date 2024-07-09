@@ -114,7 +114,7 @@ const BabblePlayerDemo = () => {
       <hr className=" mx-12 border-slate-300" />
       <div className="switch_wrapper">
         <div className="flex justify-center gap-6 p-8 items-center">
-          <div className="app_demo_text">Without AI Mic</div>
+          <div className="app_demo_text">Without AI ENC</div>
           <div>
             <div className=" flex items-center">
               <label className="inline-flex items-center cursor-pointer">
@@ -130,7 +130,7 @@ const BabblePlayerDemo = () => {
               </label>
             </div>
           </div>
-          <div className="app_demo_text">With AI Mic</div>
+          <div className="app_demo_text">With AI ENC</div>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import ComingSoon1 from "./ComingSoon1";
 const BasicFeature = () => {
   return (
     <div>
-      <div className="my-24 justify-center">
+      <div className="lg:my-24 justify-center">
         <div className="w-full mb-5 lg:flex gap-5">
           <div className="w-full mb-8 lg:mb-0">
             <AppDemo />

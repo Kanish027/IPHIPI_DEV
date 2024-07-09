@@ -34,12 +34,12 @@ const AppDemo = () => {
     <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl px-4 py-10 md:px-8 ">
       <div className="max-w-screen-lx mx-auto md:py-20">
         <h1 className="benefits-heading text-center font-bold pb-8">
-          IPHIPI Noise Cancelling app demo
+          IPHIPI Crystal Clear ENC Demo
         </h1>
         <div className="demo_outer mx-auto">
           <div className="mb-6">
             <h6 className="text-center benefit_subtitle">
-              Play and toggle IPHIPI on and off
+              Play and toggle Crystal Clear on and off
             </h6>
           </div>
           {activeAudio === "bike" && <BikePlayerDemo />}

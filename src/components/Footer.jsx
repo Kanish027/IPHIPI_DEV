@@ -24,19 +24,33 @@ const Footer = () => {
           <div className="pt-5 lg:pt-0">
             <div className="font-medium text-lg">Company</div>
             <ul className="my-3 flex text-md flex-col gap-2">
-              <li>About</li>
-              <li>Career</li>
-              <li>Product</li>
-              <li>Pricing</li>
+              <li>
+                <Link to={"/about"}>About</Link>
+              </li>
+              <li>
+                <Link to={"/contact"}>Career</Link>
+              </li>
+              <li>
+                <Link>Career</Link>
+              </li>
+              <li>
+                <Link>Pricing</Link>
+              </li>
             </ul>
           </div>
 
           <div className="pt-5 lg:pt-0">
             <div className="font-medium text-lg">Legal</div>
             <ul className="my-3 flex text-md flex-col gap-2">
-              <li>Privacy Policy</li>
-              <li>Licensing</li>
-              <li>Terms</li>
+              <li>
+                <Link>Privacy Policy</Link>
+              </li>
+              <li>
+                <Link>Licensing</Link>
+              </li>
+              <li>
+                <Link>Terms</Link>
+              </li>
             </ul>
           </div>
         </div>

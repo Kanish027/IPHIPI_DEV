@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="mt-10 mx-10 border border-gray-200" />
-      <div className="pt-7 text-center text-gray-600">
+      <div className="pt-7 mb-5 text-center text-gray-600">
         © {currentYear} IPHIPI Technologies, Inc. All rights reserved.
       </div>
     </footer>

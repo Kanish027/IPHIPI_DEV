@@ -47,7 +47,7 @@ const ComingSoon1 = () => {
                   className="lg:text-3xl mb-4 font-bold"
                   style={{ color: "#3c4043" }}
                 >
-                  Real-Time AI Bass Boost
+                  Pro and AI Dynamic Equilizer
                 </h2>
                 <p
                   className="text-sm lg:text-md font-medium"

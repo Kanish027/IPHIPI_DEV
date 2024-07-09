@@ -43,7 +43,7 @@ const ProFeature = () => {
         <div className="w-full lg:flex gap-5 mb-5">
           <div className="border lg:hidden mb-8 lg:mb-0 w-full rounded-3xl">
             <img
-              src="https://images.pexels.com/photos/5928312/pexels-photo-5928312.jpeg?auto=compress&cs=tinysrgb&w=4000"
+              src="https://images.pexels.com/photos/4050083/pexels-photo-4050083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=4000&dpr=2"
               alt=""
               className="w-full rounded-3xl"
             />
@@ -76,7 +76,7 @@ const ProFeature = () => {
           </div>
           <div className="border hidden lg:block mb-8 lg:mb-0 w-full rounded-3xl">
             <img
-              src="https://images.pexels.com/photos/5928312/pexels-photo-5928312.jpeg?auto=compress&cs=tinysrgb&w=4000"
+              src="https://images.pexels.com/photos/4050083/pexels-photo-4050083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=4000&dpr=2"
               alt=""
               className="w-full rounded-3xl"
             />
@@ -85,7 +85,7 @@ const ProFeature = () => {
         <div className="w-full mb-5 lg:flex gap-5">
           <div className="w-full mb-8 lg:mb-0">
             <img
-              src="https://images.pexels.com/photos/9204671/pexels-photo-9204671.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
+              src="https://images.pexels.com/photos/7243182/pexels-photo-7243182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=4000&dpr=2"
               alt=""
               className="w-full rounded-3xl"
             />
@@ -120,7 +120,7 @@ const ProFeature = () => {
         <div className="w-full lg:flex gap-5 mb-5">
           <div className="border lg:hidden mb-8 lg:mb-0 w-full rounded-3xl">
             <img
-              src="https://images.pexels.com/photos/5928312/pexels-photo-5928312.jpeg?auto=compress&cs=tinysrgb&w=4000"
+              src="https://images.pexels.com/photos/6000094/pexels-photo-6000094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=4000&dpr=2"
               alt=""
               className="w-full rounded-3xl"
             />
@@ -153,7 +153,7 @@ const ProFeature = () => {
           </div>
           <div className="border hidden lg:block mb-8 lg:mb-0 w-full rounded-3xl">
             <img
-              src="https://images.pexels.com/photos/5928312/pexels-photo-5928312.jpeg?auto=compress&cs=tinysrgb&w=4000"
+              src="https://images.pexels.com/photos/6000094/pexels-photo-6000094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=4000&dpr=2"
               alt=""
               className="w-full rounded-3xl"
             />
@@ -162,7 +162,7 @@ const ProFeature = () => {
         <div className="w-full mb-5 lg:flex gap-5">
           <div className="w-full mb-8 lg:mb-0">
             <img
-              src="https://images.pexels.com/photos/9204671/pexels-photo-9204671.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
+              src="https://images.pexels.com/photos/7989066/pexels-photo-7989066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=4000&dpr=2"
               alt=""
               className="w-full rounded-3xl"
             />

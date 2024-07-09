@@ -16,13 +16,13 @@ const ComingSoon = () => {
               <div>
                 <h2
                   className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
+                  style={{ color: "#423f3f" }}
                 >
                   Two-Way Conversation Sensor
                 </h2>
                 <p
-                  className="text-sm lg:text-md font-medium"
-                  style={{ color: "#3c4043" }}
+                  className="text-sm lg:text-md text-orange-500 font-medium"
+                  style={{ color: "#423f3f" }}
                 >
                   Detects conversation when the user starts speaking and when
                   someone calls the user with a registered name. Pauses music
@@ -34,25 +34,25 @@ const ComingSoon = () => {
           </div>
           <div className="slide">
             <img
-              src="https://images.pexels.com/photos/7243011/pexels-photo-7243011.jpeg?auto=compress&cs=tinysrgb&w=4000&lazy=load"
+              src="https://images.pexels.com/photos/6000101/pexels-photo-6000101.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>
           <div className="slide">
             <div
-              className="slide-content flex items-center bg-gradient-to-br lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
+              className="slide-content flex items-center  lg:px-20 px-4 sm:px-6 h-full rounded-3xl"
               style={{ backgroundColor: "#F0E8DF" }}
             >
               <div>
                 <h2
-                  className="lg:text-3xl mb-4 font-bold"
-                  style={{ color: "#3c4043" }}
+                  className="lg:text-3xl mb-4 font-bold text-orange-500"
+                  style={{ color: "#423f3f" }}
                 >
                   AI Dynamic Equalizer
                 </h2>
                 <p
-                  className="text-sm lg:text-md font-medium"
-                  style={{ color: "#3c4043" }}
+                  className="text-sm lg:text-md font-medium text-orange-500"
+                  style={{ color: "#423f3f" }}
                 >
                   Adjusts audio EQ in real-time based on the genre. Optimizes
                   sound quality for different types of content. Allows user to
@@ -65,7 +65,7 @@ const ComingSoon = () => {
           </div>
           <div className="slide">
             <img
-              src="https://images.pexels.com/photos/8053704/pexels-photo-8053704.jpeg?auto=compress&cs=tinysrgb&w=4000"
+              src="https://images.pexels.com/photos/4050214/pexels-photo-4050214.jpeg?auto=compress&cs=tinysrgb&w=4000"
               alt=""
             />
           </div>

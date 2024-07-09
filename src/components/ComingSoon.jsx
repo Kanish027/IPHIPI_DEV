@@ -16,13 +16,13 @@ const ComingSoon = () => {
               <div>
                 <h2
                   className="lg:text-3xl mb-4 text-red-500 font-bold"
-                  // style={{ color: "#423f3f" }}
+                  style={{ color: "#423f3f" }}
                 >
                   Two-Way Conversation Sensor
                 </h2>
                 <p
                   className="text-sm lg:text-md text-red-500 font-medium"
-                  // style={{ color: "#423f3f" }}
+                  style={{ color: "#423f3f" }}
                 >
                   Detects conversation when the user starts speaking and when
                   someone calls the user with a registered name. Pauses music
@@ -46,13 +46,13 @@ const ComingSoon = () => {
               <div>
                 <h2
                   className="lg:text-3xl mb-4 text-red-500 font-bold"
-                  // style={{ color: "#423f3f" }}
+                  style={{ color: "#423f3f" }}
                 >
                   AI Dynamic Equalizer
                 </h2>
                 <p
                   className="text-sm lg:text-md text-red-500 font-medium"
-                  // style={{ color: "#423f3f" }}
+                  style={{ color: "#423f3f" }}
                 >
                   Adjusts audio EQ in real-time based on the genre. Optimizes
                   sound quality for different types of content. Allows user to

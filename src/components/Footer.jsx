@@ -1,12 +1,10 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const location = useLocation();
-
-  console.log(location.pathname);
 
   return (
     <footer
@@ -45,7 +43,9 @@ const Footer = () => {
 
         <div className="pt-5 lg:pt-0 max-w-64">
           <div className="font-medium text-lg">Contact IPHIPI</div>
-          <div className="my-3">pankaj.joshi@iphipi.com </div>
+          <div className="my-3">
+            <Link to={"mailto:Marketing@iphipi.com"}>Marketing@iphipi.com</Link>
+          </div>
           <div className="">
             Office: C5-104, Center for Innovation and Entrepreneurship IIIT
             Hyderabad Gachibowli, Hyderabad Telangana - 500032

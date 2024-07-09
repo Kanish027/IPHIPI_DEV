@@ -57,27 +57,27 @@ const AppDemo = () => {
               {[
                 {
                   id: "bike",
-                  label: "Wind Voice",
+                  label: "Wind",
                   handler: handlePlayBikeAudio,
                 },
                 {
                   id: "babble",
-                  label: "Babble Voice",
+                  label: "Babble",
                   handler: handlePlayBabbleAudio,
                 },
                 {
                   id: "click",
-                  label: "Click Voice",
+                  label: "Click",
                   handler: handlePlayClickAudio,
                 },
                 {
                   id: "baby",
-                  label: "Baby Voice",
+                  label: "Baby",
                   handler: handlePlayBabyAudio,
                 },
                 {
                   id: "siren",
-                  label: "Siren Voice",
+                  label: "Siren",
                   handler: handlePlaySirenAudio,
                 },
               ].map(({ id, label, handler }) => (
@@ -89,7 +89,7 @@ const AppDemo = () => {
             ? "bg-blue-500 text-white"
             : "bg-gray-50 text-gray-800"
         }
-        text-center px-4 py-3 rounded-md cursor-pointer transition-colors duration-300 hover:bg-blue-400 hover:text-white
+        text-center px-4 py-2.5 rounded-md cursor-pointer transition-colors duration-300 hover:bg-blue-400 hover:text-white
       `}
                   onClick={handler}
                 >

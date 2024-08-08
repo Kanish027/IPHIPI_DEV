@@ -43,7 +43,7 @@ const Navbar = () => {
               <li
                 className={
                   location.pathname === "/"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
+                    ? "text-md border-b-2 h-7 border-b-blue-800 p-0.5 font-semibold text-blue-800"
                     : "text-md  p-0.5 h-7 font-semibold"
                 }
               >
@@ -54,7 +54,7 @@ const Navbar = () => {
               <li
                 className={
                   location.pathname === "/about"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
+                    ? "text-md border-b-2 h-7 border-b-blue-800 p-0.5 font-semibold text-blue-800"
                     : "text-md p-0.5 h-7 font-semibold"
                 }
               >
@@ -65,7 +65,7 @@ const Navbar = () => {
               <li
                 className={
                   location.pathname === "/contact"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
+                    ? "text-md border-b-2 h-7 border-b-blue-800 p-0.5 font-semibold text-blue-800"
                     : "text-md p-0.5 h-7 font-semibold"
                 }
               >
@@ -86,7 +86,7 @@ const Navbar = () => {
               <li
                 className={
                   location.pathname === "/about"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
+                    ? "text-md border-b-2 h-7 border-b-blue-800 p-0.5 font-semibold text-blue-800"
                     : "text-md p-0.5 h-7 font-semibold"
                 }
               >
@@ -97,7 +97,7 @@ const Navbar = () => {
               <li
                 className={
                   location.pathname === "/contact"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
+                    ? "text-md border-b-2 h-7 border-b-blue-800 p-0.5 font-semibold text-blue-800"
                     : "text-md p-0.5 h-7 font-semibold"
                 }
               >

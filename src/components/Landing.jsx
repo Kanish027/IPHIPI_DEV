@@ -16,9 +16,9 @@ const Landing = () => {
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-7 py-8 lg:py-24">
         <div className="w-full lg:w-1/2">
           <h1 className="text-3xl banner-heading sm:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">
-            Transform your <span className="text-blue-700">Earbuds</span> with
+            Transform your <span className="text-blue-800">Earbuds</span> with
             Futuristic <br className="hidden sm:block" />{" "}
-            <span className="text-blue-700">AI-Features</span>
+            <span className="text-blue-800">AI-Features</span>
           </h1>
           <p className="text-base sm:text-lg">
             Experience the next generation of{" "}

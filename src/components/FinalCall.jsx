@@ -16,7 +16,7 @@ const FinalCall = () => {
           </div> */}
           <div>
             <Link to={"/contact"}>
-              <button className="text-white bg-blue-500 hover:bg-blue-600 font-semibold w-52 h-12 rounded-lg text-md mb-2">
+              <button className="text-white bg-blue-800 hover:bg-blue-700 font-semibold w-52 h-12 rounded-lg text-md mb-2">
                 Contact us
               </button>
             </Link>

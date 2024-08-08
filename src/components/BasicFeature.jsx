@@ -18,7 +18,7 @@ const BasicFeature = () => {
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Reduces background noise during calls using advanced AI
@@ -27,7 +27,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Ensures crystal-clear communication even in noisy
@@ -36,7 +36,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Superior performance compared to any TWS ENC for Indian
@@ -63,7 +63,7 @@ const BasicFeature = () => {
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Activate the voice assistant by saying a specific wake word.
@@ -71,7 +71,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Seamless hands-free experience for controlling various
@@ -107,7 +107,7 @@ const BasicFeature = () => {
               <ul className="px-10  mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Automatically adjusts the volume based on background noise
@@ -116,7 +116,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Lowers the volume when a conversation is detected, ensuring
@@ -143,7 +143,7 @@ const BasicFeature = () => {
               <ul className="px-10 mb-20">
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>
                     Alerts users in emergency situations like loud horns, police
@@ -152,7 +152,7 @@ const BasicFeature = () => {
                 </li>
                 <li className="mb-3 flex gap-1">
                   <div>
-                    <i className="fa-solid pe-3 text-blue-600 fa-gem"></i>
+                    <i className="fa-solid pe-3 text-blue-800 fa-gem"></i>
                   </div>
                   <div>Keeps users safe while listening to loud music.</div>
                 </li>

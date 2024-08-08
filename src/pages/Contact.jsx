@@ -18,8 +18,9 @@ const Contact = () => {
         ),
         {
           loading: "Sending...",
-          success: "Message sent successfully!",
-          error: "Failed to send message.",
+          success:
+            "Thank you for contacting us! We’ve received your message and will get back to you shortly.",
+          error: "Please try again later.",
         }
       )
       .then(() => {
@@ -133,7 +134,7 @@ const Contact = () => {
                     </div>
                     <button
                       type="submit"
-                      className="py-3 px-5 text-sm font-medium text-center bg-blue-600 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+                      className="py-3 px-5 text-sm font-medium text-center bg-blue-800 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
                     >
                       Send message
                     </button>

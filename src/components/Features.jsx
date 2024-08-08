@@ -25,7 +25,7 @@ const Features = () => {
         >
           <h1
             className={`max-w-2xl text-center text-lg lg:text-2xl font-semibold ${
-              tab === "basic" ? "text-blue-500" : "text-gray-700"
+              tab === "basic" ? "text-blue-800" : "text-gray-700"
             }`}
             // style={{ fontWeight: "600", fontSize: "24px" }}
           >

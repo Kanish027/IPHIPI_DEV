@@ -86,10 +86,10 @@ const AppDemo = () => {
                   className={`
         ${
           activeAudio === id
-            ? "bg-blue-500 text-white"
+            ? "bg-blue-800 text-white"
             : "bg-gray-50 text-gray-800"
         }
-        text-center px-4 py-2.5 rounded-md cursor-pointer transition-colors duration-300 hover:bg-blue-400 hover:text-white
+        text-center px-4 py-2.5 rounded-md cursor-pointer transition-colors duration-300 hover:bg-blue-700 hover:text-white
       `}
                   onClick={handler}
                 >

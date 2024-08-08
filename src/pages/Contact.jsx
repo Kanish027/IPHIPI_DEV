@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
@@ -7,25 +8,26 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_zgbc52l",
-        "template_hv6mgar",
-        form.current,
-        "3chfWEAMJlpR7H4pj"
-      )
-      .then(
-        () => {
-          console.log("SUCCESS!");
-          // alert("Message sent successfully!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-          // alert("Failed to send message.");
+    toast
+      .promise(
+        emailjs.sendForm(
+          "service_db4nipa",
+          "template_pt3n9fs",
+          form.current,
+          "uaxN3IN2mxnA7gGMW"
+        ),
+        {
+          loading: "Sending...",
+          success: "Message sent successfully!",
+          error: "Failed to send message.",
         }
-      );
-
-    e.target.reset();
+      )
+      .then(() => {
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.log("FAILED...", error.text);
+      });
   };
 
   return (

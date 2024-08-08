@@ -14,7 +14,7 @@ const Footer = () => {
     >
       <div className="flex flex-col lg:flex-row justify-between items-start px-10">
         <div className="max-w-md mb-6 lg:mb-0">
-          <img src="logo.jpg" className="w-64 h-auto" alt="Company Logo" />
+          <img src="IPHIPI Primary copy.png" className="w-64 h-auto" alt="Company Logo" />
           <div className="mt-4">
             Make your TWS smart with our IPHIPI solutions
           </div>

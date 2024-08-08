@@ -28,12 +28,17 @@ const Navbar = () => {
         isScrolled ? "nav-shadow" : ""
       }`}
     >
-      <nav className="nav flex md:h-20 h-28 md:mx-0 mx-5 justify-between w-full items-start md:items-center">
+      <nav className="nav flex md:h-20 h-24 md:mx-0 mx-5 justify-between w-full items-start md:items-center">
         <div className="flex md:flex-row flex-col md:items-center items-start">
-          <div>
-            <img src="logo.webp" width={"150px"} height={"100px"} alt="" />
+          <div className="lg:mx-4 me-5 mt-3">
+            <img
+              src="IPHIPI Primary.png"
+              width={"140px"}
+              height={"100px"}
+              alt=""
+            />
           </div>
-          <ul className="flex items-center gap-5">
+          <ul className="flex items-center mt-0.5 lg:mt-0 gap-5">
             <Link to={"/"}>
               <li
                 className={
@@ -45,28 +50,6 @@ const Navbar = () => {
                 Overview
               </li>
             </Link>
-            {/* <Link to={"/features"}>
-              <li
-                className={
-                  location.pathname === "/features"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
-                    : "text-md p-0.5 h-7 font-semibold"
-                }
-              >
-                Features
-              </li>
-            </Link> */}
-            {/* <Link to={"/compare"}>
-              <li
-                className={
-                  location.pathname === "/compare"
-                    ? "text-md border-b-2 h-7 border-b-blue-700 p-0.5 font-semibold text-blue-700"
-                    : "text-md p-0.5 h-7 font-semibold"
-                }
-              >
-                Compare
-              </li>
-            </Link> */}
             <Link className="lg:hidden" to={"/about"}>
               <li
                 className={

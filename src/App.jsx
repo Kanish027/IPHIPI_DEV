@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
+
 import Overview from "./pages/Overview";
 import Compare from "./pages/Compare";
 import Features from "./pages/Features";
@@ -27,6 +29,7 @@ const App = () => {
         </div>
         <Footer />
       </div>
+      <Toaster />
     </div>
   );
 };

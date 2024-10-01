@@ -65,7 +65,7 @@ const Contact = () => {
               <section>
                 <div className="px-4 mx-auto max-w-screen-md">
                   <h2 className="mb-8 text-4xl tracking-tight text-center font-semibold text-gray-900">
-                    Contact us
+                    Contact Us
                   </h2>
                   <form ref={form} onSubmit={sendEmail} className="space-y-8">
                     <div>

@@ -1,260 +1,130 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+const points = [
+  "MeeamiTech: Deep Learning based Audio AI IP for voice and speech enhancement",
+  "Contify: AI based Marketing Intelligence platform",
+  "InsideView: CRM Intelligence, raised $80+ Million",
+  "TailCurrent: AI based Digital Marketing Platform, acquired by GenY Media in 2015",
+  "HelloSoft: mobile VoIP, acquired by Imagination Technologies in 2011",
+  "Datapath Systems: Semiconductor SERDES IP, acquired by LSI Logic in 2000",
+];
+
+function ListItem({ content }) {
+  return (
+    <li className="flex">
+      <span className="shrink-0 block outline outline-2 mx-2 mr-4 mt-3 outline-black outline-offset-4 h-1 w-1 rounded-full bg-black"></span>
+      <span className="text-gray-600">{content}</span>
+    </li>
+  );
+}
 
 function About() {
   return (
-    <div className="lg:mx-5 mb-20">
-      <div className="container lg:bg-blue-50 rounded-3xl lg:mb-28 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 py-8 lg:py-24">
-          <div className="w-full lg:w-auto mt-8 lg:mt-0">
-            <div className="flex gap-5">
-              <div className="flex flex-col gap-5">
-                <img
-                  src="https://images.pexels.com/photos/4606333/pexels-photo-4606333.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
-                  alt="AI-powered earbuds"
-                  className="w-48 object-cover rounded-lg"
-                />
-                <img
-                  src="https://images.pexels.com/photos/8512457/pexels-photo-8512457.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="AI-powered earbuds"
-                  className="w-48  object-cover rounded-lg"
-                />
-              </div>
-              <div className="flex flex-col gap-5">
-                <img
-                  src="https://images.pexels.com/photos/4945069/pexels-photo-4945069.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="AI-powered earbuds"
-                  className="w-48 mt-14 object-cover rounded-lg"
-                />
-                <img
-                  src="https://images.pexels.com/photos/5588376/pexels-photo-5588376.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="AI-powered earbuds"
-                  className="w-48 object-cover rounded-lg"
-                />
-              </div>
-              <div>
-                <img
-                  src="https://images.pexels.com/photos/4049454/pexels-photo-4049454.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="AI-powered earbuds"
-                  className="w-48 mt-40 object-cover rounded-lg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="w-full">
-            <h1 className="text-3xl banner-heading sm:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">
-              <span className="text-blue-800">IPHIPI Technologies</span> To
-              Elevate Your{" "}
-              <span className="text-blue-800">Audio Experience</span>
-            </h1>
-            <p className="text-lg text-gray-700 leading-relaxed text-justify">
-              As we advance into the era of intelligent devices, our focus is on
-              making AI an integral part of everyday life. By miniaturizing AI,
-              we’re transforming how technology interacts with us — bringing
-              intelligence to compact devices like wearables, earbuds, and IoT
-              sensors. This approach empowers these devices to process data
-              instantly, safeguarding privacy, enhancing speed, and reducing
-              reliance on cloud infrastructure. Through local data processing,
-              these devices seamlessly adapt to user preferences, anticipate
-              needs, and deliver highly personalized experiences. With AI
-              embedded in compact forms, we’re creating a future where
-              intelligence is seamlessly woven into the fabric of daily life,
-              enhancing every interaction.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className="flex justify-center items-start">
-          <h1 className="max-w-2xl heading text-center mb-16">Directors</h1>
-        </div>
-        <div className="flex justify-center mx-5">
-          <div className="group w-full lg:w-11/12 bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-500">
-            <div className="flex flex-col lg:flex-row">
-              <div className="relative w-full lg:w-1/2 overflow-hidden aspect-square">
-                <img
-                  src="pankajCopy.jpeg"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  alt="Pankaj Joshi"
-                />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="flex gap-6 justify-center items-center h-full align-middle">
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={"https://www.linkedin.com/in/pankajoshi/"}
-                        target="blank"
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
-                      </Link>
-                    </div>
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300">
-                        <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
-                      </Link>
-                    </div>
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={"mailto:Marketing@iphipi.com"}
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="p-8 w-full lg:w-1/2 space-y-4">
-                <h1 className="text-gray-900 text-2xl font-semibold tracking-tight relative">
-                  Pankaj Joshi
-                  <span className="absolute bottom-0 left-0 w-0 group-hover:w-full h-px bg-blue-600 transform origin-left transition-all duration-500"></span>
-                </h1>
-                <h2 className="text-blue-800 font-medium text-sm">
-                  B. Tech IIT Kharagpur, MSEE Univ of Hawaii USA, MBA INSEAD.
-                </h2>
-                <p className="text-gray-600 text-sm text-justify leading-relaxed">
-                  Pankaj Joshi, the director at IPHIPI Technologies, brings over
-                  two decades of experience in technology innovation, product
-                  management, and strategic leadership, primarily in the areas
-                  of AI wearables, audio AI, and B2B tech solutions. He is the
-                  founder of IPHIPI, an AI wearable tech startup, and has
-                  previously held senior roles at Meeami Technologies, Contify,
-                  InsideView, and HelloSoft, among others. His expertise spans
-                  AI-driven product development, sales and marketing, and
-                  business strategy, with a track record of launching AI-powered
-                  hearables, building B2B SaaS products, and expanding global
-                  market footprints. Pankaj's work emphasizes cutting-edge tech,
-                  including DSPs, Edge AI, and low-power AI chips, aiming to
-                  make advanced AI accessible in everyday devices. With a strong
-                  foundation in both engineering and business, he holds a patent
-                  in transceiver design and has led teams in creating scalable,
-                  high-impact tech solutions across industries.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-center items-start">
-          <h1
-            className="max-w-2xl heading my-28 text-center mb-16"
-            // style={{ color: "#3c4043", fontWeight: "600", fontSize: "32px" }}
-          >
-            Advisors
-          </h1>
-        </div>
-        <div className="flex flex-col lg:flex-row gap-6 mx-5">
-          {/* First Card */}
-          <div className="group w-full lg:w-1/2 bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-500">
-            <div className="flex flex-col lg:flex-row">
-              <div className="relative w-full lg:w-1/2 overflow-hidden aspect-square">
-                <img
-                  src="sumita.jpeg"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  alt="Sumita Thakur"
-                />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="flex gap-6 justify-center items-center h-full align-middle">
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={"https://www.linkedin.com/in/sumita-thakur/"}
-                        target="blank"
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
-                      </Link>
-                    </div>
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={"https://x.com/thakur_sumita"}
-                        target="blank"
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
-                      </Link>
-                    </div>
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={""}
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="p-8 w-full lg:w-1/2 space-y-4">
-                <h1 className="text-gray-900 text-2xl font-semibold tracking-tight relative">
-                  Sumita Thakur
-                  <span className="absolute bottom-0 left-0 w-0 group-hover:w-full h-px bg-blue-600 transform origin-left transition-all duration-500"></span>
-                </h1>
-                <h2 className="text-blue-800 font-medium text-sm">
-                  B.Tech NIT Durgapur, MS University of Hawaii, USA
-                </h2>
-                <p className="text-gray-600 text-sm leading-relaxed text-justify">
-                  Sumita is currently head of Head - Programs & Outreach, School
-                  of Innovation & Entrepreneurship, IIT Hyderabad. Successfully
-                  launched multiple new products (programs), customer
-                  acquisition in new markets and categories.
-                </p>
-              </div>
-            </div>
-          </div>
+    <div className="md:p-6 mb-16 relative" id="about">
+      <div className="mx-auto max-w-screen-lx px-6">
+        <h1 className="text-4xl font-semibold text-center pb-8">
+          About IPHIPI
+        </h1>
+        <div className="space-y-8">
+          <p className="text-md">
+            As we gear up for the device AI revolution, miniaturizing AI stands
+            as a pivotal step towards embedding intelligence into everyday
+            gadgets. Shrinking AI algorithms to fit within the confines of small
+            devices such as wearables, earbuds, and IoT sensors opens up a realm
+            of possibilities. This miniaturization empowers these devices to
+            process data locally, enhancing speed, privacy, and efficiency while
+            reducing reliance on cloud computing. With AI condensed into compact
+            forms, devices can seamlessly adapt to user preferences, anticipate
+            needs, and provide personalized experiences on a scale never seen
+            before. The miniaturization of AI heralds a future where
+            intelligence becomes ubiquitous, seamlessly integrated into the
+            fabric of our daily lives.
+          </p>
 
-          {/* Second Card */}
-          <div className="group w-full lg:w-1/2 bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-500">
-            <div className="flex flex-col lg:flex-row">
-              <div className="relative w-full lg:w-1/2 overflow-hidden aspect-square">
-                <img
-                  src="makishima.png"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  alt="Doug Makishima"
-                />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="flex gap-6 justify-center items-center h-full align-middle">
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={"https://www.linkedin.com/in/dougkm/"}
-                        target="blank"
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-brands text-2xl fa-linkedin text-gray-700"></i>
-                      </Link>
-                    </div>
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={"https://x.com/dmakishi"}
-                        target="blank"
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-brands text-2xl fa-square-x-twitter text-gray-700"></i>
-                      </Link>
-                    </div>
-                    <div className="transition-transform transform hover:scale-105">
-                      <Link
-                        to={""}
-                        className="bg-white shadow-lg flex hover:bg-blue-100 items-center px-4 py-3 rounded-full transition duration-300"
-                      >
-                        <i className="fa-solid text-2xl fa-envelope text-gray-700"></i>
-                      </Link>
-                    </div>
+          <div className="space-y-10 ">
+            {/* Directors */}
+            <div>
+              <h2 className="text-2xl font-medium mb-6">Directors</h2>
+              <div className="md:grid md:grid-cols-2 md:gap-16 md:space-y-0">
+                <div className="space-y-4 md:space-y-0 md:grid md:grid-cols-[1fr_2fr] md:items-start md:gap-x-6">
+                  <div className="relative w-72 my-8 aspect-square md:w-full md:my-0 ">
+                    <img
+                      src={"/pankaj.jpeg"}
+                      alt="Pankaj joshi"
+                      fill
+                      objectPosition="bottom"
+                      className="object-cover "
+                    />
+                  </div>
+
+                  <div className="space-y-2 md:text-left">
+                    <h3 className="font-medium text-center md:text-left ">
+                      Pankaj Joshi - B. Tech IIT Kharagpur, MSEE Univ of Hawaii
+                      USA, MBA INSEAD.
+                    </h3>
+                    <p className="leading-relaxed text-sm">
+                      In the last 20 years, Pankaj has been a part of 6 startups
+                      as an early employee, leadership team and as a founder
+                      CEO. He was most recently head of product at Meeamitech, a
+                      deep learning based Audio AI IP for voice and speech
+                      enhnacement.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="p-8 w-full lg:w-1/2 space-y-4">
-                <h1 className="text-gray-900 text-2xl font-semibold tracking-tight relative">
-                  Doug Makishima
-                  <span className="absolute bottom-0 left-0 w-0 group-hover:w-full h-px bg-blue-600 transform origin-left transition-all duration-500"></span>
-                </h1>
-                <h2 className="text-blue-800 font-medium text-sm">
-                  CSMO & MD / President of Ecoblox Inc. USA
-                </h2>
-                <p className="text-gray-600 text-sm leading-relaxed text-justify">
-                  Doug Makishima is a seasoned C-level executive, startup
-                  adviser, and angel investor with expertise in cloud-edge
-                  computing, AI, wireless mobile communications, IoT, networking
-                  & storage, e-commerce, and blockchain technologies.
-                </p>
+            </div>
+
+            {/* Advisors */}
+            <div>
+              <h2 className="text-2xl font-medium mb-6">Advisors</h2>
+              <div className="md:grid md:grid-cols-2 md:gap-16 md:space-y-0">
+                <div className="space-y-4 md:space-y-0 md:grid md:grid-cols-[1fr_2fr] md:items-start md:gap-x-6">
+                  <div className="relative w-72 my-8 aspect-square md:w-full md:my-0">
+                    <img
+                      src={"/sumita.jpeg"}
+                      alt="Sumita"
+                      fill
+                      objectPosition="bottom"
+                      className=" "
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="font-medium text-center md:text-left">
+                      Sumita Thakur - B.Tech NIT Durgapur, MS Univ of Hawaii,
+                      USA
+                    </h3>
+                    <p className="leading-relaxed text-sm">
+                      Sumita is currently head of Head - Programs & Outreach,
+                      School of Innovation & Entrepreneurship, IIT Hyderabad.
+                      Successfully launched multiple new products (programs),
+                      customer acquisition in new markets and categories.
+                    </p>
+                  </div>
+                </div>
+                <div className="space-y-4 md:space-y-0 md:grid md:grid-cols-[1fr_2fr] md:items-start md:gap-x-6">
+                  <div className="relative w-72 my-8 aspect-square md:w-full md:my-0">
+                    <img
+                      src={"/doug-makishima.jpeg"}
+                      alt="Doug makishima"
+                      fill
+                      objectPosition="bottom"
+                      className="object-cover "
+                    />
+                  </div>
+
+                  <div className="space-y-2">
+                    <h3 className="font-medium text-center md:text-left ">
+                      Doug Makishima, CSMO Summittech
+                    </h3>
+                    <p className="leading-relaxed text-sm">
+                      Doug Makishima is a seasoned C-level executive, startup
+                      adviser and angel investor with deep experience in cloud
+                      edge computing, AI, wireless mobile communications, IoT,
+                      networking & storage, e-commerce and blockchain
+                      technologies.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

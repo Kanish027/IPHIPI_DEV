@@ -30,14 +30,14 @@ const Navbar = () => {
     >
       <nav className="nav flex md:h-20 h-24 md:mx-0 mx-5 justify-between w-full items-start md:items-center">
         <div className="flex md:flex-row flex-col md:items-center items-start">
-          <div className="lg:mx-4 me-5 mt-3">
+          <Link to={"/"} className="lg:mx-4 me-5 pe-1.5 mt-3">
             <img
               src="IPHIPI Primary.png"
               width={"140px"}
               height={"100px"}
               alt=""
             />
-          </div>
+          </Link>
           <ul className="flex items-center mt-0.5 lg:mt-0 gap-5">
             <Link to={"/"}>
               <li
